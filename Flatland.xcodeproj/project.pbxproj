@@ -14,6 +14,9 @@
 		7539F1911CE4584000ED4592 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7539F18F1CE4584000ED4592 /* MainMenu.xib */; };
 		7539F19C1CE4584000ED4592 /* FlatlandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7539F19B1CE4584000ED4592 /* FlatlandTests.swift */; };
 		7539F1A71CE4584000ED4592 /* FlatlandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7539F1A61CE4584000ED4592 /* FlatlandUITests.swift */; };
+		7539F1B51CE458E600ED4592 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7539F1B41CE458E600ED4592 /* Board.swift */; };
+		7539F1B81CE45B5200ED4592 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7539F1B71CE45B5200ED4592 /* Random.swift */; };
+		75A4964E1CE4821E00BE9721 /* GameSceneWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A4964D1CE4821E00BE9721 /* GameSceneWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		7539F1A21CE4584000ED4592 /* FlatlandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlatlandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7539F1A61CE4584000ED4592 /* FlatlandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatlandUITests.swift; sourceTree = "<group>"; };
 		7539F1A81CE4584000ED4592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7539F1B41CE458E600ED4592 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		7539F1B71CE45B5200ED4592 /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Random.swift; path = Libraries/Random.swift; sourceTree = "<group>"; };
+		75A4964D1CE4821E00BE9721 /* GameSceneWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSceneWindow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		7539F17B1CE4584000ED4592 = {
 			isa = PBXGroup;
 			children = (
+				7539F1B61CE45B3900ED4592 /* Libraries */,
 				7539F1861CE4584000ED4592 /* Flatland */,
 				7539F19A1CE4584000ED4592 /* FlatlandTests */,
 				7539F1A51CE4584000ED4592 /* FlatlandUITests */,
@@ -98,7 +105,9 @@
 			isa = PBXGroup;
 			children = (
 				7539F1871CE4584000ED4592 /* AppDelegate.swift */,
+				75A4964D1CE4821E00BE9721 /* GameSceneWindow.swift */,
 				7539F1891CE4584000ED4592 /* GameScene.swift */,
+				7539F1B41CE458E600ED4592 /* Board.swift */,
 				7539F18B1CE4584000ED4592 /* GameScene.sks */,
 				7539F18D1CE4584000ED4592 /* Assets.xcassets */,
 				7539F18F1CE4584000ED4592 /* MainMenu.xib */,
@@ -123,6 +132,14 @@
 				7539F1A81CE4584000ED4592 /* Info.plist */,
 			);
 			path = FlatlandUITests;
+			sourceTree = "<group>";
+		};
+		7539F1B61CE45B3900ED4592 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				7539F1B71CE45B5200ED4592 /* Random.swift */,
+			);
+			name = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7539F1B81CE45B5200ED4592 /* Random.swift in Sources */,
+				75A4964E1CE4821E00BE9721 /* GameSceneWindow.swift in Sources */,
+				7539F1B51CE458E600ED4592 /* Board.swift in Sources */,
 				7539F18A1CE4584000ED4592 /* GameScene.swift in Sources */,
 				7539F1881CE4584000ED4592 /* AppDelegate.swift in Sources */,
 			);
@@ -481,6 +501,7 @@
 				7539F1AD1CE4584000ED4592 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7539F1AE1CE4584000ED4592 /* Build configuration list for PBXNativeTarget "FlatlandTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +510,7 @@
 				7539F1B01CE4584000ED4592 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7539F1B11CE4584000ED4592 /* Build configuration list for PBXNativeTarget "FlatlandUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +519,7 @@
 				7539F1B31CE4584000ED4592 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
