@@ -11,4 +11,5 @@ import Cocoa
 class GameSceneWindow: NSWindow {
     @IBOutlet weak var foodsEaten: NSTextField!
     @IBOutlet weak var poisenEaten: NSTextField!
+    @IBOutlet weak var moves: NSTextField!
 }

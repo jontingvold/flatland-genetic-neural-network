@@ -145,19 +145,39 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wGh-rb-n4b">
+                        <rect key="frame" x="369" y="6" width="48" height="17"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Moves:" id="YmQ-B6-Bj0">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XIE-P4-P0z">
+                        <rect key="frame" x="421" y="6" width="42" height="17"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="0" id="twv-eI-Nvi">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
                 </subviews>
                 <constraints>
                     <constraint firstItem="539" firstAttribute="top" secondItem="372" secondAttribute="top" id="542"/>
                     <constraint firstItem="539" firstAttribute="leading" secondItem="372" secondAttribute="leading" id="544"/>
                     <constraint firstItem="FJ9-Tg-yGS" firstAttribute="leading" secondItem="SCA-CS-dlh" secondAttribute="trailing" constant="2" id="0oB-wM-SW4"/>
                     <constraint firstItem="SCA-CS-dlh" firstAttribute="top" secondItem="539" secondAttribute="bottom" constant="2" id="4ja-O2-WQh"/>
+                    <constraint firstItem="XIE-P4-P0z" firstAttribute="leading" secondItem="wGh-rb-n4b" secondAttribute="trailing" constant="8" id="57e-zn-6iK"/>
                     <constraint firstAttribute="bottom" secondItem="6Oo-NX-zCR" secondAttribute="bottom" constant="6" id="9FW-v4-ynd"/>
                     <constraint firstItem="539" firstAttribute="leading" secondItem="372" secondAttribute="leading" id="Cor-oG-iRq"/>
                     <constraint firstItem="539" firstAttribute="top" secondItem="372" secondAttribute="top" id="FIV-zV-IjR"/>
+                    <constraint firstItem="wGh-rb-n4b" firstAttribute="leading" secondItem="FJ9-Tg-yGS" secondAttribute="trailing" constant="62" id="Kxz-9o-tU7"/>
                     <constraint firstAttribute="trailing" secondItem="539" secondAttribute="trailing" id="LX2-f2-fA7"/>
                     <constraint firstItem="6Oo-NX-zCR" firstAttribute="leading" secondItem="372" secondAttribute="leading" constant="20" id="Q9k-ci-y8F"/>
                     <constraint firstItem="YT8-ve-x2v" firstAttribute="top" secondItem="539" secondAttribute="bottom" constant="2" id="Sh0-F0-465"/>
+                    <constraint firstItem="XIE-P4-P0z" firstAttribute="top" secondItem="539" secondAttribute="bottom" constant="2" id="Y7M-Ox-J5T"/>
                     <constraint firstItem="6Oo-NX-zCR" firstAttribute="top" secondItem="539" secondAttribute="bottom" constant="2" id="ac7-ip-hS2"/>
+                    <constraint firstItem="wGh-rb-n4b" firstAttribute="top" secondItem="539" secondAttribute="bottom" constant="2" id="ihj-md-pQr"/>
                     <constraint firstItem="YT8-ve-x2v" firstAttribute="leading" secondItem="372" secondAttribute="leading" constant="104" id="pqf-mG-BXM"/>
                     <constraint firstItem="SCA-CS-dlh" firstAttribute="leading" secondItem="YT8-ve-x2v" secondAttribute="trailing" constant="62" id="puh-KB-uKg"/>
                     <constraint firstItem="FJ9-Tg-yGS" firstAttribute="top" secondItem="539" secondAttribute="bottom" constant="2" id="x8g-pk-CDW"/>
@@ -165,6 +185,7 @@
             </view>
             <connections>
                 <outlet property="foodsEaten" destination="YT8-ve-x2v" id="UIQ-Ff-lQx"/>
+                <outlet property="moves" destination="XIE-P4-P0z" id="MJP-N5-alP"/>
                 <outlet property="poisenEaten" destination="FJ9-Tg-yGS" id="gM1-gK-LaY"/>
             </connections>
         </window>

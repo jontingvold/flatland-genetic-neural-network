@@ -16,7 +16,25 @@
 		7539F1A71CE4584000ED4592 /* FlatlandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7539F1A61CE4584000ED4592 /* FlatlandUITests.swift */; };
 		7539F1B51CE458E600ED4592 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7539F1B41CE458E600ED4592 /* Board.swift */; };
 		7539F1B81CE45B5200ED4592 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7539F1B71CE45B5200ED4592 /* Random.swift */; };
+		756E356F1CEC9B1A001CCA7B /* TestANN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756E356E1CEC9B1A001CCA7B /* TestANN.swift */; };
+		756E35701CEC9D8F001CCA7B /* ANN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA2F171CE879C800DD635D /* ANN.swift */; };
+		756E35711CEC9DA2001CCA7B /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA2F191CE87D5D00DD635D /* Matrix.swift */; };
+		756E35721CEC9DB0001CCA7B /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA2F1B1CE87E7200DD635D /* Common.swift */; };
+		756E35731CEC9DB3001CCA7B /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7539F1B71CE45B5200ED4592 /* Random.swift */; };
+		756E35751CECA29D001CCA7B /* IntelligentFlatlandAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756E35741CECA29D001CCA7B /* IntelligentFlatlandAgent.swift */; };
+		756E35861CECA779001CCA7B /* GASearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756E35781CECA779001CCA7B /* GASearcher.swift */; };
+		756E35871CECA779001CCA7B /* Genotype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756E35791CECA779001CCA7B /* Genotype.swift */; };
+		756E358F1CECA779001CCA7B /* Phenotype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756E35811CECA779001CCA7B /* Phenotype.swift */; };
+		756E35951CECA79B001CCA7B /* FlatlandGenotype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756E35941CECA79B001CCA7B /* FlatlandGenotype.swift */; };
+		756E35971CECA7A8001CCA7B /* FlatlandPhenotype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756E35961CECA7A8001CCA7B /* FlatlandPhenotype.swift */; };
+		756E359A1CECA80A001CCA7B /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756E35981CECA80A001CCA7B /* Double.swift */; };
+		756E359B1CECA80A001CCA7B /* Transpose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756E35991CECA80A001CCA7B /* Transpose.swift */; };
+		756E359D1CECADB2001CCA7B /* Sigma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756E359C1CECADB2001CCA7B /* Sigma.swift */; };
+		756E359F1CECAE71001CCA7B /* Simulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756E359E1CECAE71001CCA7B /* Simulation.swift */; };
 		75A4964E1CE4821E00BE9721 /* GameSceneWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A4964D1CE4821E00BE9721 /* GameSceneWindow.swift */; };
+		75FA2F181CE879C800DD635D /* ANN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA2F171CE879C800DD635D /* ANN.swift */; };
+		75FA2F1A1CE87D5D00DD635D /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA2F191CE87D5D00DD635D /* Matrix.swift */; };
+		75FA2F1C1CE87E7200DD635D /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA2F1B1CE87E7200DD635D /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +70,21 @@
 		7539F1A81CE4584000ED4592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7539F1B41CE458E600ED4592 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 		7539F1B71CE45B5200ED4592 /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Random.swift; path = Libraries/Random.swift; sourceTree = "<group>"; };
+		756E356E1CEC9B1A001CCA7B /* TestANN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestANN.swift; sourceTree = "<group>"; };
+		756E35741CECA29D001CCA7B /* IntelligentFlatlandAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntelligentFlatlandAgent.swift; sourceTree = "<group>"; };
+		756E35781CECA779001CCA7B /* GASearcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GASearcher.swift; path = GA/GASearcher.swift; sourceTree = SOURCE_ROOT; };
+		756E35791CECA779001CCA7B /* Genotype.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Genotype.swift; path = GA/Genotype.swift; sourceTree = SOURCE_ROOT; };
+		756E35811CECA779001CCA7B /* Phenotype.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Phenotype.swift; path = GA/Phenotype.swift; sourceTree = SOURCE_ROOT; };
+		756E35941CECA79B001CCA7B /* FlatlandGenotype.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatlandGenotype.swift; sourceTree = "<group>"; };
+		756E35961CECA7A8001CCA7B /* FlatlandPhenotype.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatlandPhenotype.swift; sourceTree = "<group>"; };
+		756E35981CECA80A001CCA7B /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Double.swift; path = Libraries/Double.swift; sourceTree = "<group>"; };
+		756E35991CECA80A001CCA7B /* Transpose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Transpose.swift; path = Libraries/Transpose.swift; sourceTree = "<group>"; };
+		756E359C1CECADB2001CCA7B /* Sigma.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sigma.swift; path = Libraries/Sigma.swift; sourceTree = "<group>"; };
+		756E359E1CECAE71001CCA7B /* Simulation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Simulation.swift; sourceTree = "<group>"; };
 		75A4964D1CE4821E00BE9721 /* GameSceneWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSceneWindow.swift; sourceTree = "<group>"; };
+		75FA2F171CE879C800DD635D /* ANN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ANN.swift; sourceTree = "<group>"; };
+		75FA2F191CE87D5D00DD635D /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Matrix.swift; path = Libraries/Matrix.swift; sourceTree = "<group>"; };
+		75FA2F1B1CE87E7200DD635D /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common.swift; path = Libraries/Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +136,7 @@
 		7539F1861CE4584000ED4592 /* Flatland */ = {
 			isa = PBXGroup;
 			children = (
+				756E35761CECA6D8001CCA7B /* GA */,
 				7539F1871CE4584000ED4592 /* AppDelegate.swift */,
 				75A4964D1CE4821E00BE9721 /* GameSceneWindow.swift */,
 				7539F1891CE4584000ED4592 /* GameScene.swift */,
@@ -112,6 +145,9 @@
 				7539F18D1CE4584000ED4592 /* Assets.xcassets */,
 				7539F18F1CE4584000ED4592 /* MainMenu.xib */,
 				7539F1921CE4584000ED4592 /* Info.plist */,
+				75FA2F171CE879C800DD635D /* ANN.swift */,
+				756E359E1CECAE71001CCA7B /* Simulation.swift */,
+				756E35741CECA29D001CCA7B /* IntelligentFlatlandAgent.swift */,
 			);
 			path = Flatland;
 			sourceTree = "<group>";
@@ -121,6 +157,7 @@
 			children = (
 				7539F19B1CE4584000ED4592 /* FlatlandTests.swift */,
 				7539F19D1CE4584000ED4592 /* Info.plist */,
+				756E356E1CEC9B1A001CCA7B /* TestANN.swift */,
 			);
 			path = FlatlandTests;
 			sourceTree = "<group>";
@@ -137,9 +174,26 @@
 		7539F1B61CE45B3900ED4592 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				756E359C1CECADB2001CCA7B /* Sigma.swift */,
+				756E35981CECA80A001CCA7B /* Double.swift */,
+				756E35991CECA80A001CCA7B /* Transpose.swift */,
 				7539F1B71CE45B5200ED4592 /* Random.swift */,
+				75FA2F191CE87D5D00DD635D /* Matrix.swift */,
+				75FA2F1B1CE87E7200DD635D /* Common.swift */,
 			);
 			name = Libraries;
+			sourceTree = "<group>";
+		};
+		756E35761CECA6D8001CCA7B /* GA */ = {
+			isa = PBXGroup;
+			children = (
+				756E35781CECA779001CCA7B /* GASearcher.swift */,
+				756E35791CECA779001CCA7B /* Genotype.swift */,
+				756E35811CECA779001CCA7B /* Phenotype.swift */,
+				756E35941CECA79B001CCA7B /* FlatlandGenotype.swift */,
+				756E35961CECA7A8001CCA7B /* FlatlandPhenotype.swift */,
+			);
+			name = GA;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,10 +327,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				756E35861CECA779001CCA7B /* GASearcher.swift in Sources */,
+				756E359A1CECA80A001CCA7B /* Double.swift in Sources */,
+				75FA2F1C1CE87E7200DD635D /* Common.swift in Sources */,
+				756E35871CECA779001CCA7B /* Genotype.swift in Sources */,
+				756E359B1CECA80A001CCA7B /* Transpose.swift in Sources */,
+				756E358F1CECA779001CCA7B /* Phenotype.swift in Sources */,
+				756E35951CECA79B001CCA7B /* FlatlandGenotype.swift in Sources */,
+				756E35971CECA7A8001CCA7B /* FlatlandPhenotype.swift in Sources */,
+				75FA2F1A1CE87D5D00DD635D /* Matrix.swift in Sources */,
+				756E359D1CECADB2001CCA7B /* Sigma.swift in Sources */,
+				756E35751CECA29D001CCA7B /* IntelligentFlatlandAgent.swift in Sources */,
 				7539F1B81CE45B5200ED4592 /* Random.swift in Sources */,
+				75FA2F181CE879C800DD635D /* ANN.swift in Sources */,
 				75A4964E1CE4821E00BE9721 /* GameSceneWindow.swift in Sources */,
 				7539F1B51CE458E600ED4592 /* Board.swift in Sources */,
 				7539F18A1CE4584000ED4592 /* GameScene.swift in Sources */,
+				756E359F1CECAE71001CCA7B /* Simulation.swift in Sources */,
 				7539F1881CE4584000ED4592 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,7 +352,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				756E35711CEC9DA2001CCA7B /* Matrix.swift in Sources */,
 				7539F19C1CE4584000ED4592 /* FlatlandTests.swift in Sources */,
+				756E35731CEC9DB3001CCA7B /* Random.swift in Sources */,
+				756E35701CEC9D8F001CCA7B /* ANN.swift in Sources */,
+				756E35721CEC9DB0001CCA7B /* Common.swift in Sources */,
+				756E356F1CEC9B1A001CCA7B /* TestANN.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
